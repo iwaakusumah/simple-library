@@ -4,14 +4,10 @@
 Sistem ini merupakan project <strong>RESTful API</strong> menggunakan <strong>Framework Laravel 12</strong>. Project ini dirancang untuk menyediakan backend API yang modular, aman, dan scalable untuk web perpustakaan sederhana.
 </p>
 
----
-
 ## Key Features
 
 - ✅ User authentication (Login & Logout via Laravel Sanctum)
 - ✅ Books management
-
----
 
 ## Requirements
 
@@ -19,8 +15,6 @@ Sistem ini merupakan project <strong>RESTful API</strong> menggunakan <strong>Fr
 - Composer
 - MySQL
 - Laragon >= 6.0
-
----
 
 ## 🛠️ Installation & Setup
 
