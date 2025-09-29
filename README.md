@@ -57,11 +57,34 @@ php artisan migrate
 php artisan serve
 ```
 
-## API Documentation
+## 📋 API Documentation
 
 ### 1. Login
 ```http
 POST /api/login
+```
+
+### Request Body (JSON)
+```bash
+{
+  "email": "admin@example.com",
+  "password": "password"
+}
+```
+
+### 2. Get Books
+```http
+GET /api/books
+```
+
+### 2. Show Book
+```http
+GET /api/books/{id}
+```
+
+### 4. Post Book
+```http
+POST /api/books
 ```
 
 ### Request Body (JSON)
