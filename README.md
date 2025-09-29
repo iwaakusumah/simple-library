@@ -28,7 +28,6 @@ cd simple-library
 ### 2. Install Dependencies
 ```bash
 composer install
-npm install
 ```
 
 ### 3. Setup Environment
@@ -49,7 +48,7 @@ DB_PASSWORD=
 
 ### 4. Run Database Migrations
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 ### 5. Run the Application
