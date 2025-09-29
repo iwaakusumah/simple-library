@@ -116,6 +116,11 @@ PUT /api/books/{id}
 DELETE /api/books/{id}
 ```
 
+### 7. Logout
+```http
+POST /api/logout
+```
+
 ## 📄 License
 <p style="text-align: justify;">
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
