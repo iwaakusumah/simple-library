@@ -15,13 +15,14 @@ Sistem ini merupakan project <strong>RESTful API</strong> menggunakan <strong>Fr
 - Composer
 - MySQL
 - Laragon >= 6.0
+- Postman
 
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/iwaakusumah/TRAVISA.git
-cd TRAVISA
+git clone https://github.com/iwaakusumah/simple-library.git
+cd simple-library
 ```
 
 ### 2. Install Dependencies
@@ -38,7 +39,10 @@ php artisan key:generate
 
 ### Edit the .env file to match your database configuration:
 ```bash
-DB_DATABASE=beasiswa_db
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=simple_library
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -48,17 +52,24 @@ DB_PASSWORD=
 php artisan migrate
 ```
 
-### 5. Setup Laravel Breeze Authentication
-```bash
-composer require laravel/breeze --dev
-php artisan breeze:install blade
-npm install && npm run dev
-php artisan migrate
-```
-
-### 6. Run the Application
+### 5. Run the Application
 ```bash
 php artisan serve
+```
+
+## API Documentation
+
+### 1. Login
+```http
+POST /api/login
+```
+
+### Request Body (JSON)
+```bash
+{
+  "email": "admin@example.com",
+  "password": "password"
+}
 ```
 
 ## 📄 License
