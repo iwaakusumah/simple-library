@@ -73,13 +73,6 @@ POST /api/login
 ```
 
 ### Copy the token and enter it into the authorization field
-```bash
-{
-    "message": "Login success",
-    "access_token": "1|Pa1AqZCCGCZPZU7GrGYNk6lybDrksKolIVVSFNZe22af4d32",
-    "token_type": "Bearer"
-}
-```
 
 ### 2. Get Books
 ```http
