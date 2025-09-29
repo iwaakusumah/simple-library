@@ -77,7 +77,7 @@ POST /api/login
 GET /api/books
 ```
 
-### 2. Show Book
+### 3. Show Book
 ```http
 GET /api/books/{id}
 ```
@@ -94,6 +94,25 @@ POST /api/books
     "author": "J. S. Khairen",
     "year": "2021"
 }
+```
+
+### 5. Put Book
+```http
+PUT /api/books/{id}
+```
+
+### Request Body (JSON)
+```bash
+{
+    "title": "Dompet Ayah Sepatu Ibu",
+    "author": "J.S. Khairen",
+    "year": "2024"
+}
+```
+
+### 6. Delete Book
+```http
+DELETE /api/books/{id}
 ```
 
 ## 📄 License
