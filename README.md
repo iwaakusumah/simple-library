@@ -90,8 +90,9 @@ POST /api/books
 ### Request Body (JSON)
 ```bash
 {
-  "email": "admin@example.com",
-  "password": "password"
+    "title": "Dompet Ayah Sepatu Ibu",
+    "author": "J. S. Khairen",
+    "year": "2021"
 }
 ```
 
